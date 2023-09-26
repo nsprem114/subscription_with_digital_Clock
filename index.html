@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            padding: 100px;
+            background-color: rgb(177, 121, 121);
+            text-align: center;
+        }
+        h1{
+            color: blue;
+            text-transform: uppercase;
+        }
+        p{
+            text-transform: uppercase;
+            color: yellow;
+            font-weight: bolder;
+        }
+        #subscribeButton {
+            padding: 10px;
+            width: 40%;
+            border-radius: 10px;
+            border: 0;
+            background-color: rgb(36, 223, 36);
+            text-transform: uppercase;
+        }
+        #unSubscribeButton {
+            padding: 10px;
+            width: 40%;
+            border-radius: 10px;
+            border: 0;
+            background-color: rgb(230, 28, 28);
+            text-transform: uppercase;
+        }
+        #timeClock {
+            margin-top: 25px;
+            font-size: 20px;
+            font-weight: bolder;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to our Subscription Service</h1>
+    <p>Click the butoon below to subscribe or unsibscribe</p>
+    <button id="subscribeButton">Subscribe</button>
+    <button id="unSubscribeButton">UnSubscribe</button>
+    <p>Total Subscriber : <span id="subscriberCount">0</span></p>
+    <div id="timeClock">00:00:00</div>
+    <script src="app.js"></script>
+</body>
+</html>
